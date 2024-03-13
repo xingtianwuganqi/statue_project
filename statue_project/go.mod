@@ -1,4 +1,4 @@
-module pet-project
+module statue-project
 
 go 1.18
 

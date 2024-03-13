@@ -2,10 +2,11 @@ package db
 
 import (
 	"fmt"
+	"statue-project/models"
+	"statue-project/settings"
+
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"pet-project/models"
-	"pet-project/settings"
 )
 
 var DB *gorm.DB
